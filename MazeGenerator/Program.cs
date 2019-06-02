@@ -6,7 +6,7 @@ namespace MazeGenerator
     {
         static void Main(string[] args)
         {
-            var maze = new MazeGrid(10,20);
+            var maze = new MazeGrid(15,30);
             maze.Generate();
             maze.Print();
         }
